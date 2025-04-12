@@ -3,6 +3,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const projects = [
         'Project 1: Java Application Development',
+        'Project 2: Browser-Based Game Development',
     ];
 
     const projectList = document.getElementById('project-list');
