@@ -2,7 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     const projects = [
-        'Project 1: Java Application Development',
+        'Project 1: MacOS project tracking application',
         'Project 2: Browser-Based Game Development',
     ];
 
