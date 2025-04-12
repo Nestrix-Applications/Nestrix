@@ -1,4 +1,4 @@
-# Simple Website
+# Project Site
 
 This project is a simple HTML website that displays a list of current projects. It is designed to be lightweight and easy to understand, making it suitable for beginners who want to learn about web development.
 
