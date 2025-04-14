@@ -3,8 +3,8 @@
 document.addEventListener('DOMContentLoaded', function() {
     const siteName = 'Nestrix';
     const projects = [
-        'Project 1: project logging application',
-        'Project 2: Browser-Based Game Development',
+        { name: 'Project 1: project logging application', url: 'https://github.com/callenflynn/project-tracker' },
+        { name: 'Project 2: Auto Blob: Arena', url: 'https://callenflynn.github.io/Auto-Blob-Arena/' },
     ];
 
     // Update the site name
@@ -17,7 +17,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     projects.forEach(function(project) {
         const listItem = document.createElement('li');
-        listItem.textContent = project;
+        const link = document.createElement('a');
+        link.textContent = project.name;
+        link.href = project.url;
+        link.target = '_blank'; // Opens the link in a new tab
+        listItem.appendChild(link);
         projectList.appendChild(listItem);
     });
 
