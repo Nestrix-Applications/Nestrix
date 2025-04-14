@@ -3,7 +3,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const siteName = 'Nestrix';
     const projects = [
-        'Project 1: Java Application Development',
+        'Project 1: project logging application',
         'Project 2: Browser-Based Game Development',
     ];
 
