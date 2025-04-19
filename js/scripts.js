@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const siteName = 'Nestrix';
     const projects = [
         { name: 'Project 1: project logging application', url: 'https://github.com/Nestrix-Applications/project-tracker' },
-https://nestrix-applications.github.io/Auto-Blob-Arena/
+        { name: 'project 2: Auto Blob: Arena', url: 'https://nestrix-applications.github.io/Auto-Blob-Arena/' },
     ];
 
     // Update the site name
