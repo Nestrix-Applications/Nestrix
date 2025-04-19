@@ -1,6 +1,6 @@
 # Nestrix
 
-A website eith links to my active projects
+A website with links to active projects
 
 ## Project Structure
 
