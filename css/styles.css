@@ -72,6 +72,17 @@ h1 {
     margin: 20px auto;
     border: 1px solid #dddddd;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center; /* Center iframe horizontally */
+}
+
+#newsletter-section iframe {
+    width: 100%;
+    max-width: 600px; /* Optional: limit the width of the iframe */
+    height: 220px;
+    border: 1px #ccc solid;
+    display: block;
+    margin: 0 auto; /* Ensure it's centered */
 }
 
 footer {
