@@ -1,60 +1,44 @@
-/* 1) Center all text by default */
-body {
-  font-family: Arial, sans‑serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-  text-align: center;           /* <<< add this */
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nestrix</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
 
-/* 2) Make sure your containers keep their max‑width but center their inline contents */
-.container {
-  width: 80%;
-  max-width: 800px;
-  margin: 20px auto;            /* vertical spacing + auto‑center */
-  overflow: hidden;
-  text-align: center;           /* <<< add this */
-}
+  <!-- Site Title -->
+  <header>
+    <h1 id="site-title">Nestrix</h1>
+  </header>
 
-/* 3) Project list: center each box and its text */
-.project-list {
-  list-style: none;
-  padding: 0;
-}
+  <!-- Current Projects Section -->
+  <div class="container" id="project-list-container">
+    <h2>Current Projects</h2>
+    <ul id="project-list" class="project-list"></ul>
+  </div>
 
-.project-list li {
-  display: block;
-  margin: 10px auto;            /* auto left/right to center the block */
-  padding: 15px;
-  width: 90%;                   /* or a fixed width like 400px */
-  max-width: 600px;
-  border: 1px solid #dddddd;
-  border-radius: 5px;
-  background: #ffffff;
-  text-align: center;           /* <<< ensure the link text is centered */
-}
+  <!-- Contact Section -->
+  <div class="container" id="contact-section">
+    <h2>Contact</h2>
+    <!-- Contact info will be added here by JS -->
+  </div>
 
-/* 4) Contact & Newsletter sections are already in .container, so inherit centering */
-#contact-section p,
-#newsletter-section iframe {
-  margin: 0 auto;               /* center block‑level children */
-}
+  <!-- Newsletter Section -->
+  <div class="container" id="newsletter-section">
+    <h2>Subscribe to Our Newsletter</h2>
+    <iframe
+      scrolling="no"
+      src="https://buttondown.email/nestrix/embed"
+      title="Buttondown Newsletter Signup">
+    </iframe>
+  </div>
 
-/* 5) Newsletter section styling */
-#newsletter-section {
-  background-color: #ffffff;
-  padding: 20px;
-  margin: 20px 0;
-  border: 1px solid #dddddd;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
+  <footer>
+    <p>Nestrix</p>
+  </footer>
 
-/* Clean up your iframe */
-#newsletter-section iframe {
-  border: none;       /* remove inline border */
-  overflow: hidden;   /* hide any stray scrollbars */
-  width: 100%;        /* fill its container */
-  height: 220px;
-  display: block;     /* to honor margin: auto centering */
-}
+  <script src="js/scripts.js"></script>
+</body>
+</html>
