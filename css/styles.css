@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    text-align: center;
+    text-align: center; /* Ensure body text is centered */
 }
 
 header {
@@ -19,9 +19,8 @@ h1 {
 .container {
     width: 80%;
     max-width: 800px;
-    margin: 20px auto;
+    margin: 20px auto; /* This centers the container */
     overflow: hidden;
-    text-align: center;
 }
 
 .project-list {
@@ -40,32 +39,7 @@ h1 {
     text-align: center;
 }
 
-/* Projects section styling */
-#project-list-container {
-    background-color: #f0f0f0;
-    padding: 20px;
-    border-radius: 8px;
-    margin: 20px auto;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-/* Contact section styling */
-#contact-section {
-    border: 2px solid #ccc;
-    padding: 15px;
-    border-radius: 8px;
-    margin: 20px auto;
-    background-color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-#contact-section p {
-    margin: 0;
-    font-size: 16px;
-    color: #333;
-}
-
-/* Newsletter section styling */
+/* Styling for the newsletter section */
 #newsletter-section {
     background-color: #ffffff;
     padding: 20px;
@@ -73,20 +47,6 @@ h1 {
     margin: 20px auto;
     border: 1px solid #dddddd;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Ensure the text is centered */
-}
-
-#newsletter-section h2 {
-    margin-bottom: 15px; /* Add spacing between the heading and iframe */
-}
-
-#newsletter-section iframe {
-    width: 100%;               /* Ensure it takes the full width of the container */
-    max-width: 600px;          /* Optional: limit the width of the iframe */
-    height: 220px;
-    border: 1px #ccc solid;
-    display: block;            /* Ensures the iframe behaves like a block element */
-    margin: 0 auto;            /* This centers the iframe within the container */
 }
 
 footer {
