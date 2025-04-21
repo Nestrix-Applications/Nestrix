@@ -3,13 +3,13 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    text-align: center;
 }
 
 header {
     background: #35424a;
     color: #ffffff;
     padding: 10px 0;
-    text-align: center;
 }
 
 h1 {
@@ -18,8 +18,10 @@ h1 {
 
 .container {
     width: 80%;
-    margin: auto;
+    max-width: 800px;
+    margin: 20px auto;
     overflow: hidden;
+    text-align: center;
 }
 
 .project-list {
@@ -29,35 +31,38 @@ h1 {
 
 .project-list li {
     background: #ffffff;
-    margin: 10px 0;
+    margin: 10px auto;
     padding: 15px;
+    width: 90%;
+    max-width: 600px;
     border: 1px solid #dddddd;
     border-radius: 5px;
+    text-align: center;
 }
 
-/* Style for the Projects section */
+/* Projects section styling */
 #project-list-container {
-    background-color: #f0f0f0; /* Light gray background */
+    background-color: #f0f0f0;
     padding: 20px;
     border-radius: 8px;
-    margin: 20px 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Style for the Contact section */
+/* Contact section styling */
 #contact-section {
-    border: 2px solid #ccc; /* Light gray border */
+    border: 2px solid #ccc;
     padding: 15px;
     border-radius: 8px;
-    margin: 20px 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    background-color: #fff; /* White background */
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 #contact-section p {
     margin: 0;
     font-size: 16px;
-    color: #333; /* Darker text for readability */
+    color: #333;
 }
 
 footer {
