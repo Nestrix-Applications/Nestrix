@@ -1,71 +1,60 @@
+/* 1) Center all text by default */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+  font-family: Arial, sans‑serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  text-align: center;           /* <<< add this */
 }
 
-header {
-    background: #35424a;
-    color: #ffffff;
-    padding: 10px 0;
-    text-align: center;
-}
-
-h1 {
-    margin: 0;
-}
-
+/* 2) Make sure your containers keep their max‑width but center their inline contents */
 .container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;            /* vertical spacing + auto‑center */
+  overflow: hidden;
+  text-align: center;           /* <<< add this */
 }
 
+/* 3) Project list: center each box and its text */
 .project-list {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .project-list li {
-    background: #ffffff;
-    margin: 10px 0;
-    padding: 15px;
-    border: 1px solid #dddddd;
-    border-radius: 5px;
+  display: block;
+  margin: 10px auto;            /* auto left/right to center the block */
+  padding: 15px;
+  width: 90%;                   /* or a fixed width like 400px */
+  max-width: 600px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  background: #ffffff;
+  text-align: center;           /* <<< ensure the link text is centered */
 }
 
-/* Style for the Projects section */
-#project-list-container {
-    background-color: #f0f0f0; /* Light gray background */
-    padding: 20px;
-    border-radius: 8px;
-    margin: 20px 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+/* 4) Contact & Newsletter sections are already in .container, so inherit centering */
+#contact-section p,
+#newsletter-section iframe {
+  margin: 0 auto;               /* center block‑level children */
 }
 
-/* Style for the Contact section */
-#contact-section {
-    border: 2px solid #ccc; /* Light gray border */
-    padding: 15px;
-    border-radius: 8px;
-    margin: 20px 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    background-color: #fff; /* White background */
+/* 5) Newsletter section styling */
+#newsletter-section {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-#contact-section p {
-    margin: 0;
-    font-size: 16px;
-    color: #333; /* Darker text for readability */
-}
-
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #35424a;
-    color: #ffffff;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+/* Clean up your iframe */
+#newsletter-section iframe {
+  border: none;       /* remove inline border */
+  overflow: hidden;   /* hide any stray scrollbars */
+  width: 100%;        /* fill its container */
+  height: 220px;
+  display: block;     /* to honor margin: auto centering */
 }
