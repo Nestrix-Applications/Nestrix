@@ -72,8 +72,11 @@ h1 {
     margin: 20px auto;
     border: 1px solid #dddddd;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: center; /* Center iframe horizontally */
+    text-align: center; /* Ensure the text is centered */
+}
+
+#newsletter-section h2 {
+    margin-bottom: 15px; /* Add spacing between the heading and iframe */
 }
 
 #newsletter-section iframe {
@@ -82,7 +85,7 @@ h1 {
     height: 220px;
     border: 1px #ccc solid;
     display: block;
-    margin: 0 auto; /* Ensure it's centered */
+    margin: 0 auto; /* Ensure the iframe is centered */
 }
 
 footer {
