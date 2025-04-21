@@ -65,6 +65,7 @@ h1 {
     color: #333;
 }
 
+/* Newsletter section styling */
 #newsletter-section {
     background-color: #ffffff;
     padding: 20px;
@@ -80,12 +81,12 @@ h1 {
 }
 
 #newsletter-section iframe {
-    width: 100%;
-    max-width: 600px; /* Optional: limit the width of the iframe */
+    width: 100%;               /* Ensure it takes the full width of the container */
+    max-width: 600px;          /* Optional: limit the width of the iframe */
     height: 220px;
     border: 1px #ccc solid;
-    display: block;
-    margin: 0 auto; /* Ensure the iframe is centered */
+    display: block;            /* Ensures the iframe behaves like a block element */
+    margin: 0 auto;            /* This centers the iframe within the container */
 }
 
 footer {
