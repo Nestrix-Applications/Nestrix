@@ -65,6 +65,15 @@ h1 {
     color: #333;
 }
 
+#newsletter-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    border: 1px solid #dddddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 footer {
     text-align: center;
     padding: 10px 0;
