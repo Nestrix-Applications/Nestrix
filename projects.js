@@ -11,7 +11,7 @@ const projects = [
     {
         id: 1,
         name: "Auto Blob Arena",
-        description: "A personal portfolio to showcase projects and skills.",
+        description: "A fun IDLE game programmed in JavaScript, HTML5, and CSS.",
         link: "https://github.com/Nestrix-Applications/Auto-Blob-Arena",
         lang: 'js',
     },
