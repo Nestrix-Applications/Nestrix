@@ -1,4 +1,5 @@
 // weird and edgy approach to store the data...
+// ^ wut? -cal
 
 const projects = [
     {
@@ -11,7 +12,7 @@ const projects = [
     {
         id: 1,
         name: "Auto Blob Arena",
-        description: "A fun IDLE game programmed in JavaScript, HTML5, and CSS.",
+        description: "Created By Wowdog15. A fun IDLE game programmed in JavaScript, HTML5, and CSS.",
         link: "https://nestrix-applications.github.io/Auto-Blob-Arena/",
         lang: 'js',
     },
@@ -23,3 +24,4 @@ const projects = [
         lang: 'js',
     },
 ];
+
