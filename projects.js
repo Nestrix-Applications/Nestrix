@@ -6,7 +6,7 @@ const projects = [
         id: 0,
         name: "Project Tracker",
         description: "An effective way to track scheduled deadlines, and make lists.",
-        link: "",
+        link: "https://github.com/Nestrix-Applications/project-tracker/tree/v1.1.0",
         lang: "java",
     },
     {
