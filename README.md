@@ -7,10 +7,9 @@ A website with links to active projects
 ```
 Nestrix
 ├── index.html       # Main HTML document
-├── css
-│   └── styles.css   # Styles for the website
-├── js
-│   └── scripts.js    # JavaScript for dynamic content
+├── projects.js      # JavaScript for managing project links
+├── script.js        # Additional JavaScript functionality
+├── styles.css       # Styles for the website
 └── README.md        # Documentation for the project
 ```
 

@@ -12,7 +12,7 @@ const projects = [
         id: 1,
         name: "Auto Blob Arena",
         description: "A fun IDLE game programmed in JavaScript, HTML5, and CSS.",
-        link: "https://github.com/Nestrix-Applications/Auto-Blob-Arena",
+        link: "https://nestrix-applications.github.io/Auto-Blob-Arena/",
         lang: 'js',
     },
 ];
