@@ -1,12 +1,12 @@
 // weird and edgy approach to store the data...
-// ^ wut? -cal
+// ^ wut?
 
 const projects = [
     {
         id: 0,
         name: "Project Tracker",
         description: "An effective way to track scheduled deadlines, and make lists.",
-        link: "https://github.com/Nestrix-Applications/project-tracker/tree/v1.1.0",
+        link: "https://github.com/Nestrix-Applications/project-tracker/",
         lang: "java",
     },
     {
@@ -20,8 +20,15 @@ const projects = [
         id: 2,
         name: "Sapphire Game Engine",
         description: "A lightweight and extensible 2D game engine designed for making simple games.",
-        link: "https://github.com/LilPumpkinXD/Sapphire-Game-Engine/blob/main/README.md",
+        link: "https://github.com/LilPumpkinXD/Sapphire-Game-Engine/",
         lang: 'js',
+    },
+    {
+        id: 3,
+        name: "Hexa",
+        description: "A text-based rpg where you can fight monsters and explore.",
+        link: "https://github.com/Nestrix-Applications/Hexa",
+        lang: 'java',
     },
 ];
 

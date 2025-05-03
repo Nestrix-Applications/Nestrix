@@ -12,3 +12,5 @@ const container = document.getElementById('projects');
 projects.forEach(project => {
     container.innerHTML += generateProjectHTML(project);
 });
+
+// https://youtu.be/dQw4w9WgXcQ
