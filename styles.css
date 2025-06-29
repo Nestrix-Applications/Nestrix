@@ -62,13 +62,43 @@ p {
 
 .python::before {
     content: "[Python]";
-    color: #0a99f8;
+    color: #4CAF50;
     padding-right: 20px;
 }
 
 .cpp::before {
     content: "[C++]";
-    color: #a10af8;
+    color: #8c00ff;
+    padding-right: 20px;
+}
+
+.c::before {
+    content: "[C]";
+    color: #8c00ff;
+    padding-right: 20px;
+}
+
+.php::before {
+    content: "[PHP]";
+    color: #4B0082;
+    padding-right: 20px;
+}
+
+.swift::before {
+    content: "[Swift]";
+    color: #FA7343;
+    padding-right: 20px;
+}
+
+.batch::before {
+    content: "[Batch]";
+    color: #575757;
+    padding-right: 20px;
+}
+
+.rust::before {
+    content: "[Rust]";
+    color: #B7410E;
     padding-right: 20px;
 }
 
