@@ -18,14 +18,14 @@ const projects = [
     },
     {
         id: 2,
-        name: "Project Tracker",
+        name: "Cal's Project Tracker",
         description: "An effective way to track scheduled deadlines, and make lists.",
         link: "https://github.com/Nestrix-Applications/project-tracker/",
         lang: "java",
     },
     {
         id: 3,
-        name: "Auto Blob Arena",
+        name: "Cal's Auto Blob Arena",
         description: "Created By Wowdog15. A fun IDLE game programmed in JavaScript, HTML5, and CSS.",
         link: "https://nestrix-applications.github.io/Auto-Blob-Arena/",
         lang: 'js',
@@ -33,13 +33,13 @@ const projects = [
     {
         id: 4,
         name: "Sapphire Game Engine",
-        description: "A lightweight and extensible 2D game engine designed for making simple games.",
+        description: "A lightweight and extensible 2D game engine designed for making simple games. Made by Wowdog15.",
         link: "https://github.com/LilPumpkinXD/Sapphire-Game-Engine/",
         lang: 'js',
     },
     {
         id: 5,
-        name: "Hexa",
+        name: "Cal's Hexa",
         description: "A text-based rpg where you can fight monsters and explore.",
         link: "https://github.com/Nestrix-Applications/Hexa",
         lang: 'java',
