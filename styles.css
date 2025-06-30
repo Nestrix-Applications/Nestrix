@@ -84,6 +84,11 @@ p {
     padding-right: 20px;
 }
 
+.website::before {
+    content: "[Website]";
+    color: #86c8ff;
+    padding-right: 20px;
+}
 .swift::before {
     content: "[Swift]";
     color: #FA7343;
