@@ -58,6 +58,13 @@ const projects = [
         link: "https://github.com/Nestrix-Applications/Hexa",
         lang: 'java',
     },
+    {
+        id: 8,
+        name: "M1NE",
+        description: "Mines a cryptocurrency knows an Monero with 5% of your cpu, and sends it to me! you can change where it gets sent though if u have a monero address",
+        link: "https://callenflynn.github.io/project-M1NE/",
+        lang: 'website',
+    }
 
 ];
 
