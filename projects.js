@@ -60,9 +60,9 @@ const projects = [
     },
     {
         id: 8,
-        name: "M1NE",
-        description: "Mines a cryptocurrency knows an Monero with 5% of your cpu, and sends it to me! you can change where it gets sent though if u have a monero address",
-        link: "https://callenflynn.github.io/project-M1NE/",
+        name: "Myspace (prank)",
+        description: "A site that pretends to grab your ip! shows your location, satelite view of your location, and system specs. DOES NOT SAVE INFO",
+        link: "https://myspace.not-skittle-or-beluga.workers.dev/",
         lang: 'website',
     }
 
