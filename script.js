@@ -38,7 +38,7 @@ closeSidebar.addEventListener('click', () => {
 toggleDarkMode.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
     sidebar.classList.toggle('dark');
-    // Optionally, save preference
+    // save preference
     if (document.body.classList.contains('dark-mode')) {
         localStorage.setItem('theme', 'dark');
     } else {
