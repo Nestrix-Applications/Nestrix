@@ -3,7 +3,7 @@ const projects = [
                         {
         id: 0,
         name: "HellCrank",
-        description: "High octane FPS game (not out yet)",
+        description: "High octane shooter game (not out yet)",
         link: "https://hellcrank.vercel.app/",
         lang: 'exe',
     },
