@@ -10,8 +10,8 @@ const projects = [
             {
         id: 1,
         name: "Snake Gaem",
-        description: "Funny little snake. A classic game. Made by Cal.",
-        link: "https://github.com/callenflynn/snake-gaem/releases",
+        description: "Snake game remake made by Cal. Released on itch.io",
+        link: "https://cals-snake-gaem.vercel.app/#",
         lang: 'Csharp',
     },
     {
